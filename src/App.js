@@ -8,6 +8,7 @@ import Footer from './Components/Footer/Footer';
 import Experience from './Components/Experience/Experience';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import SignIn from './Components/SignIn/SignIn';
+import SignUp from './Components/SignUP/SignUp';
 
 function App() {
   return (
@@ -30,6 +31,10 @@ function App() {
 
           <Route exact path="/signin">
             <SignIn></SignIn>
+          </Route>
+
+          <Route exact path="/signup">
+            <SignUp></SignUp>
           </Route>
         </Switch>
 
