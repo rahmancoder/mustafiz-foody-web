@@ -1,4 +1,7 @@
 import React from 'react';
+import Breakfast from '../Breakfast/Breakfast';
+import Dinner from '../Dinner/Dinner';
+import Lunch from '../Lunch/Lunch';
 
 const AllFood = () => {
     return (
@@ -7,6 +10,9 @@ const AllFood = () => {
             <span> Breakfast  </span>
             <span>Lunch </span>
             <span>Dinner </span>
+            {/* <Breakfast></Breakfast>
+            <Lunch></Lunch>
+            <Dinner></Dinner> */}
 
         </div>
     );
