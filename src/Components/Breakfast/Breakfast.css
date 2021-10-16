@@ -1,0 +1,7 @@
+.foodbreakfast{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+    margin-right: 5px;
+    padding-bottom: 5px;
+}

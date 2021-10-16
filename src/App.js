@@ -9,6 +9,7 @@ import Experience from './Components/Experience/Experience';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import SignIn from './Components/SignIn/SignIn';
 import SignUp from './Components/SignUP/SignUp';
+import Home from './Components/Home/Home';
 
 function App() {
   return (
@@ -20,7 +21,7 @@ function App() {
       <Footer></Footer> */}
       <Router>
         <Header></Header>
-        <Background></Background>
+        <Home></Home>
         <Switch>
           <Route exact path="/">
 
